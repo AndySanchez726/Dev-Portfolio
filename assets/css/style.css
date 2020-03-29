@@ -69,7 +69,6 @@ header nav ul li a {
 main {
     display: flex;
     flex-direction: column;
-    align-items: ;
 }
 .section-title {
     width: 30%;
@@ -93,7 +92,23 @@ main {
     align-items: center;
     margin: 30px;
 }
-
+.work-grid-container {
+    display: grid;
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+.work-grid-item {
+    background: var(--primary);
+    padding: 20px;
+    border: 2px solid var(--cream);
+}
+.project-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2
+    ;
+}
 /* CONTACT ME */
 .contact-me {
     display: flex;
