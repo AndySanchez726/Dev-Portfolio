@@ -23,6 +23,10 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
 }
 header a {
     text-decoration: none;
@@ -59,4 +63,40 @@ header nav ul li a {
     margin: 0 60px 40px 0;
     bottom: 0;
     right: 0;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+}
+.section-title {
+    width: 30%;
+    font-size: 56px;
+}
+
+/* ABOUT ME */
+.about-me {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+.about-me p {
+    line-height: 1.5;
+    width: 60%;
+}
+
+/* WORK */
+.work {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+/* CONTACT ME */
+.contact-me {
+    display: flex;
+    align-items: center;
+    margin: 30px;
 }
