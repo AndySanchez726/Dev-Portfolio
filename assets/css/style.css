@@ -93,6 +93,10 @@ main {
     width: 60%;
     margin: 30px;
 }
+.about-me img {
+    height: 150px;
+    margin: 0 0px 0 15px;
+}
 /* WORK */
 .work {
     display: flex;
@@ -172,6 +176,7 @@ main {
 .contact-info {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 30px;
     width: 60%;
 }
@@ -180,4 +185,31 @@ main {
     font-size: 20px;
     text-decoration: none;
 }
-    
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    header nav {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .about-me p {
+        font-size: 18px;
+    }
+    .contact-info a {
+        margin: 15px;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 575px) {
+
+}
