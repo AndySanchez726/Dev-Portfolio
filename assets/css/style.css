@@ -159,6 +159,10 @@ main {
     color: var(--cream);
     text-decoration: none;
 }
+.project-3 {
+    background: url(../images/tasty-events-screenshot.png);
+    background-size: cover;
+}
 
 /* CONTACT ME */
 .contact-me {
