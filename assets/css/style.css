@@ -163,6 +163,10 @@ main {
     background: url(../images/tasty-events-screenshot.png);
     background-size: cover;
 }
+.project-4 {
+    background: url(../images/whiskey-inventory-screenshot.png);
+    background-size: cover;
+}
 
 /* CONTACT ME */
 .contact-me {
